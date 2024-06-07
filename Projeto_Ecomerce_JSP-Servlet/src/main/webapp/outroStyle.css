@@ -1,0 +1,140 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+html{
+    font-size: 10px;
+}
+
+form{
+    font-size: 4rem;
+    z-index: 0;
+    position: absolute;
+    top:90rem;
+}
+
+#login{
+    position: relative;
+    font-size: 10rem;
+    top:40rem;
+}
+
+#quadroBranco{
+    position: relative;
+    top:35rem;
+    height:70rem;
+    width: 70rem;
+    background-color: white;
+    border-radius: 2rem;
+    opacity: 50%;
+    box-shadow: 20px 20px 15px;
+    border-color: aliceblue;
+    border-style: solid;
+    z-index: -1;
+    
+}
+
+#quadroBranco:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -5px;
+    left:-5px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0.5;;
+}
+
+
+#quadroBranco:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(248, 248, 249);
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+ 
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 50rem;
+  padding: 8% 0 0;
+  margin: auto;
+  position: absolute;
+  top:-10rem;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 1.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 1.5rem;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+
+.form #message {
+  margin: 1.5rem 0 0;
+  color: red;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+  #quadroBranco{
+    top:0;
+    height:40rem;
+    width: 40rem;
+  }
+  #login{
+    top:9.3rem;
+  }
+  .login-page {
+    width: 35rem;
+    padding: 8% 0 0;
+    margin: auto;
+    position: absolute;
+    top:-55rem;
+  }
+
+}

@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+.form_login{
+	display: flex;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 80vh;
+	max-height: 80vh;
+}
+
+.cadastro{
+	flex: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+.form_login_filho{
+	border-right: 1px;
+	border-right-style: dotted;
+	flex:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input_cpf{
+	margin-bottom: 20px;
+	min-height: 25px;
+}
+
+.input_senha{
+	margin-bottom: 20px;
+	min-height: 25px;
+}
+.botao_form{
+	float: right;
+	width: 70px;
+	height:35px;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #70D6FF;
+	
+	
+	&:hover{
+		background-color: #4504A7;
+		color: white;
+		
+		
+	}
+}
+
+.form_login_filho1{
+	display: block;
+	
+}
+
+.nome_login{
+	min-width: 250px;
+	max-width: 250px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+	font-size: 20px;
+	min-width: auto;
+	max-width: auto;
+	font-weight: bold;
+}
+
+input{
+	min-width: 250px;
+	max-width: 250px;
+}
+

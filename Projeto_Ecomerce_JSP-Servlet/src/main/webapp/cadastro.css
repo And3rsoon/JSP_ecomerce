@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+
+.cadastro{
+	min-width: 100%;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.form_cadastro_filho{
+	
+}
+
+.form_cadastro_filho1{
+	
+	
+}
+
+.nome_cadastro{
+	font-size: 30px;
+	
+}
+
+input{
+	margin-bottom: 40px;
+	width: 30vw;
+	height: 25px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.botao_form{
+	float: right;
+	width: 100%;
+	height:35px;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #70D6FF;
+	margin-bottom: 30px;
+	
+	
+	&:hover{
+		background-color: #4504A7;
+		color: white;
+		
+		
+	}
+}

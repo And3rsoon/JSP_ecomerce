@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+
+.form_login{
+	min-width: 100vw;
+	min-height: 300px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
