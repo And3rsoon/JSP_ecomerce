@@ -20,7 +20,7 @@ Sistema de busca parcial, que faz uma busca no banco de dados em todas as ocorr�
 ![image](https://github.com/And3rsoon/JSP_ecomerce/assets/114175542/db3a79de-4a47-4b7d-a7c9-8823c8d0c967)
 
 
-
+Página de cadastro, com sistema de formatação dos campos de cpf,cep e tel, além de preenchimento automatico do endereço com base no cep informado usando uma API.
 ![image](https://github.com/And3rsoon/JSP_ecomerce/assets/114175542/d6ab6f73-0a31-4c89-a799-315bccff8aa7)
 
 
